@@ -1,5 +1,3 @@
-import java.lang.*;
-
 public class Arul
 {
     public static void main(String[] args)
