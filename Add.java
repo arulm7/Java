@@ -8,6 +8,7 @@ public class Add
         System.out.println("Enter the value of b : ");
         a = sc.nextInt();
         b=sc.nextInt();
+        sc.close();
         sum = a+b;
         System.out.println("The sum of "+a+" and "+b+" is : " + sum);
     }
