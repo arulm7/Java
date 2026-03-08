@@ -8,12 +8,12 @@ public class Abundant {
         n = sc.nextInt();
         sc.close();
         s = 0;
-        for(i=1;i<n;i++){
+        for(i=1;i<=n;i++){
             if(n%i==0){
                 s = s+i;
             }
         }
-        if(s>n){
+        if(s-n>n){
             System.out.println("It is an abundant number");
         }
         else{
