@@ -5,6 +5,7 @@ class Sumofseries{
     public static void main(String[] args){
         int n;
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.print("Enter the n terms : ");
         n = sc.nextInt();
         int sum = 0;
