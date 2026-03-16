@@ -15,3 +15,4 @@ class Sumofseries{
         System.out.println("Sum of the series is : " + sum);
     }
 }
+//
