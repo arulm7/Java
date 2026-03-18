@@ -13,6 +13,5 @@ public class EvenOdd {
             System.out.println(n+" is an odd number");
         }
 
-    }
-    
+    }  
 }
