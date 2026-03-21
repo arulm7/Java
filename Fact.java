@@ -7,6 +7,7 @@ public class Fact {
         System.out.println("Enter the value of n : ");
         n=sc.nextInt();
         sc.close();
+        //factorial of n
         for(i=1;i<=n;i++){
             fact = fact*i;
         }
