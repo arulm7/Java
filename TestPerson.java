@@ -21,7 +21,7 @@ class Student extends Person{
         System.out.println("Age: " + age);
         System.out.println("Roll No: " + rno);
     }
-}
+}//inheritance
 class TestPerson{
     public static void main(String[] args){
         int a,b;
