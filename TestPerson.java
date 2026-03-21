@@ -6,6 +6,7 @@ class Person{
         this.age = age;
         this.name = name;
     }
+
     
 }
 class Student extends Person{
@@ -15,9 +16,10 @@ class Student extends Person{
         this.rno = rno;
     }
     void display(){
-        System.out.println("Name"+name);
-        System.out.println("Age"+age);
-        System.out.println("Roll No"+rno);
+        //super.display();
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Roll No: " + rno);
     }
 }
 class TestPerson{
