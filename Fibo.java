@@ -6,6 +6,7 @@ public class Fibo {
         System.out.println("Enter the no of terms : ");
         n = sc.nextInt();
         sc.close();
+        //fibonacci series
         System.out.println("Fibonacci Series : ");
         for(i=1;i<=n;i++){
             System.out.print(n1+" ");
